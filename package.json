@@ -10,7 +10,6 @@
   "author": "Kabirat",
   "license": "ISC",
   "dependencies": {
-    "htmlparser2": "^8.0.2",
     "sanitize-html": "^2.17.6"
   }
 }
