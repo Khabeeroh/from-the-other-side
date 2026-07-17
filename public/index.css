@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+        background-color: rgb(67, 131, 156);
+}
+    .container{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 20px;
+    text-align: center;
+    background: url(images/forest1.jpg);
+    opacity: 0.8;
+    .card-container{
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif !important;
+        height:80vh;
+        overflow-y:auto;
+        overscroll-behavior: initial;
+        overflow-wrap: break-word;
+        padding-bottom: 20px;
+    
+    }
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+}
+.sighting-container, .upload-container{
+    height: auto !important;
+}
+.navbar{    
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar{    
+    width: 95%;
+    padding: 20px 0px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlink ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.navlink ul li{
+    list-style-type: none;
+}
+.navlink ul li a{
+    color: white;
+}
+
+.main{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+.header{
+    width: 60%;
+     margin:40px auto 20px;
+}
+
+.middle{
+     width: 90%;
+     margin: 10em auto 10em;
+}
+.footer {
+    font-size: 14px;
+}
+.card {
+  position: relative;
+  margin: 20px auto 0;
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 80%;
+  height: auto;          
+  max-height: auto;
+  overflow: hidden;
+}
+.card .read-more-btn{
+     position: absolute;
+    right: 10%;
+    bottom: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    background-color: white;
+}
+.card h3{
+    padding: 5px 0px;
+    font-size: 15px;
+}
+.sighting-text-wrapper {
+  max-height: 5em;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  white-space:normal;
+  margin-bottom: 20px;
+}
+
+.card.expanded .sighting-text-wrapper {
+  max-height: 100vh;        
+}
+.card p{
+    font-size: 12px;
+}
+form{
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+}
+label{
+    display: block;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+textarea{
+     width: 100%;
+    padding: 10px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+form button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.2s;
+
+}
+.form-message{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.news-display{
+    width: 90%;
+    height: auto;
+    padding: 20px 0px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px auto 0px;
+    border-radius: 20px;
+    color: black;
+
+
+
+}
+@media screen and (min-width: 700px) {
+.container{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 40%;
+    height: auto;
+}
+.navbar{
+     padding: 20px 0px 10px 40px;
+}
+.navlink ul{
+    font-size: 14px;
+    gap: 20px;
+}
+.footer{
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.card{
+    width: 60%;
+}
+.card h3{
+    padding: 5px 0px;
+}
+form{
+    width: 60%;
+}
+textarea{
+    width: 100%;
+}
+}
