@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "sanitize-html": "^2.17.6"
+  },
+  "overrides": {
+    "htmlparser2": "8.0.0"
   }
 }
