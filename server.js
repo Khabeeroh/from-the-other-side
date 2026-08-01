@@ -28,10 +28,3 @@ const server = http.createServer(async (req, res) => {
 })
 
 server.listen(PORT, () => console.log(`Connected on port: ${PORT}`))
-
- 
-//  const PathToResources = path.join(_dirname, "public", "index.html")
-//     const relPathToResources = path.join("public", "index.html")
-//      console.log('absolute', PathToResources)
-//     console.log('relative', relPathToResources)
-//     res.writeHead(200, {"Content-Type": "text/html"})
